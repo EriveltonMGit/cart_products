@@ -1,0 +1,72 @@
+.cart {
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  max-width: 300px;
+  background-color: aliceblue;
+  z-index: 200;
+  overflow-y: auto;
+  
+ 
+}
+/* content_carrinho */
+.cart_item {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+
+  img {
+    width: 5vw;
+  }
+
+  div {
+    width: 80%;
+  }
+
+  button {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3vw;
+    height:1vw;
+    border-radius: 20px;
+    margin-top: 1vh;
+    margin-right: 1vw;
+    font-size: 1.2vw;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    color: white;
+  }
+}
+/* total_price */
+.total_price{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+   width: 100%;
+   max-width: 300px;
+    background-color: rgb(130, 146, 163);
+    border-top: 1px solid #ddd;
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+     height: 10vh;
+     bottom: 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-bottom: 0;
+     font-weight: bolder;
+ 
+}
